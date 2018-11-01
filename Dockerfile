@@ -61,7 +61,7 @@ ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
 
 RUN mkdir -p "$GOPATH/src" "$GOPATH/bin" && chmod -R 777 "$GOPATH"
 
-ENV TERRAFORM_VERSION=0.10.0
+ENV TERRAFORM_VERSION=0.11.10
 
 RUN apk add --update git bash openssh
 
